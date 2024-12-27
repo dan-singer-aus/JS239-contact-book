@@ -1,0 +1,190 @@
+/* CSS reset:
+  http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main styles */
+
+
+header {
+	background-color: #778589;
+	height: 137px;
+	color: #efefee;
+	text-align: center;
+}
+
+header h1 {
+	vertical-align: middle;
+	padding-top: 50px;
+}
+
+.badge {
+	background-color: darkgreen;
+}
+
+#options-bar {
+	background-color: whitesmoke;
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#options-bar form {
+	display: inline-block;
+	margin-left: 140px;
+}
+
+#options-bar form fieldset {
+	display: inline-block;
+}
+
+button#add-contact {
+	display: inline-block;
+}
+
+dd dl {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+dl { 
+	margin-bottom: 0;
+}
+
+ul.contact-list {
+	width: 700px;
+	margin: auto;
+	padding-left: 0;
+
+}
+
+#contacts {
+	text-align: center;
+}
+
+li.contact-card {
+	border-bottom: 2px solid black;
+	padding-top: 25px;
+}
+
+.tag-list{
+	padding: 0;
+}
+
+#new-contact-form {
+	width: 700px;
+	margin: auto;
+	background-color: whitesmoke;
+	padding: 5px;
+} 
+
+.hidden {
+	display: none;
+}
+
+.contact-form-details {
+	display: inline-block;
+	width: 50%;
+	padding-right: 5px;
+}
+
+.contact-form-tags {
+	display: inline-block;
+	height: 280px;
+	vertical-align: top;
+	margin: auto;
+	width: 50%;
+}
+
+.contact-form-tags ul {
+	height: 150px;
+}
+
+form#tag-form {
+	width: 700px;
+	margin: auto;
+	background-color: whitesmoke;
+	padding: 5px;
+}
+
+form#tag-form h2 {
+	text-align: center;
+}
+
+form#tag-form label {
+	display: block;
+}
+
+form#tag-form input {
+	display: inline-block;
+	margin: auto;
+}
+
+form#tag-form fieldset {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+form#tag-form input[type="text"] {
+	width: 50%;
+	margin: auto;
+}
+
+form#tag-form div.tag-display {
+	text-align: center;
+}
+
+form#tag-form li  {
+	font-size: larger;
+}
+
+form#tag-form .badge:hover {
+	background-color: firebrick;
+}
