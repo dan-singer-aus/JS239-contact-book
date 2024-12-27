@@ -1,6 +1,6 @@
 # Contact Manager
 ## Overview
-contact manager is a web application that allows users to manage contacts like a contact book. Users are able to add, edit and delete contacts. Users are also able to add tags apply tags to certain contacts. Users can search for contacts by their name or tag.
+Contact Manager is a web application that allows users to manage contacts like a contact book. Users are able to add, edit and delete contacts. Users are also able to add tags apply tags to certain contacts. Users can search for contacts by their name or tag.
 
 ## Files
 - `ContactList.js` creates a `ContactList` object that handles storage of contacts and tags. also handles validation of input
